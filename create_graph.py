@@ -238,9 +238,3 @@ def is_similar(graph: Graph) -> None:
                 graph.add_edge(title1, title2)
 
 
-python_ta.check_all(config={
-    'extra-imports': [],  # the names (strs) of imported modules
-    'allowed-io': [],  # the names (strs) of functions that call print/open/input
-    'max-line-length': 100,
-    'disable': ['E1136']
-})
